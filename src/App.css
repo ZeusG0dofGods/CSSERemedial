@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #DCFFE6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left:  12px; /* Adjust padding as needed */
+  padding-bottom: 3px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #f1fff5;
+  position: relative;
+}
+
+.header-logo {
+  width: 35px;
+  height: auto;
+  margin-left: 4.6px;
+  margin-bottom: 4px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 7px;
+  text-align: left;
+  margin-top: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: 'Pacifico', serif;
+  color: #57bc90;
+  font-size: 27.2px;
+
+}
+
+span {
+  color: #57bc90;
+  font-family: Inter, sans-serif;
+  font-size: 11.5px;
+  vertical-align: middle;
+  padding-right: 29px;
+}
+
+.in {
+  padding-left: 33px;
+}
+
+.D {
+  color: #015249;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 27.2px;
+  text-align: center;
+  line-height: 32.64px;
+  margin-top: 37px;
+  margin-bottom: 8px;
+}
+
+.h21 {
+  color: rgb(1, 82, 73);
+  font-family: Inter, sans-serif;
+  font-size: 20.2px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 9px;
+}
+
+.no1,
+.no2 {
+  color: rgb(1, 82, 73);
+  font-family: Inter, sans-serif;
+  font-size: 15.4px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.b1 {
+  background-color: rgb(205, 235, 222);
+  border-radius: 1rem;
+  width: 900px; /* Adjust width as needed */
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 20px auto;
+  margin-top: 0px;
+  border: 2px; /* Add border style */
+}
+.b3  {
+  background-color: rgb(205, 235, 222);
+  border-radius: 1rem;
+  width: 900px; /* Adjust width as needed */
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 20px auto;
+  margin-top: 0px;
+  border: 2px; /* Add border style */
+}
+.ci{
+  box-sizing: border-box;
+color: rgb(1, 82, 73);
+display: block;
+font-family: Inter, sans-serif;
+font-size: 11.2px;
+font-style: italic;
+font-weight: 500;
+height: 13.4233px;
+line-height: 13.44px;
+margin-block-end: 8px;
+margin-block-start: 0px;
+margin-bottom: 8px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+}
+.pic{
+  border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+box-sizing: border-box;
+color: rgb(241, 255, 245);
+cursor: pointer;
+display: inline;
+font-family: Inter, sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-optical-sizing: auto;
+font-size: 16px;
+font-stretch: 100%;
+font-style: normal;
+font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-variation-settings: normal;
+font-weight: 400;
+height: 80px;
+letter-spacing: normal;
+line-height: 24px;
+overflow-clip-margin: content-box;
+overflow-x: clip;
+overflow-y: clip;
+scrollbar-color: rgba(0, 0, 0, 0) rgba(200, 129, 129, 0);
+text-align: center;
+text-indent: 0px;
+text-rendering: auto;
+text-shadow: none;
+text-transform: none;
+user-select: none;
+vertical-align: middle;
+}
+.im{
+  box-sizing: border-box;
+  color: rgb(241, 255, 245);
+  display: flex;
+  flex-direction: row;
+  font-family: Inter, sans-serif;
+  height: 146.676px;
+  justify-content: flex-start;
+  overflow-x: auto;
+  overflow-y: auto;
+  scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.i+t{
+  align-items: center;
+box-sizing: border-box;
+color: rgb(241, 255, 245);
+display: flex;
+flex-direction: column;
+font-family: Inter, sans-serif;
+height: 131.222px;
+justify-content: center;
+padding-bottom: 16px;
+scrollbar-color: rgba(0, 0, 0, 0) rgba(206, 27, 27, 0);
+}
+
+.imtext{
+  align-items: flex-start;
+  appearance: button;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.909091px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 0.909091px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 0.909091px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 0.909091px;
+  box-sizing: border-box;
+  color: rgb(1, 82, 73);
+  cursor: pointer;
+  display: block;
+  font-family: Inter, arial;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variation-settings: normal;
+  font-weight: bold;
+  height: 93.8068px;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-block-end: 6px;
+  padding-block-start: 6px;
+  padding-bottom: 6px;
+  padding-inline-end: 12px;
+  padding-inline-start: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  text-align: center;
+  text-decoration-color: rgb(33, 37, 41);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  transition-behavior: normal, normal, normal, normal;
+  transition-delay: 0s, 0s, 0s, 0s;
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  user-select: none;
+  width: 105.795px;
+  word-spacing: 0px;
+  
+  }
+
